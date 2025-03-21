@@ -6,7 +6,15 @@ public class Livro {
     int paginas;
     String resumo;
     TipoCapaEnum tipoCapa; //COMUM, DURA
+    //Construtor
+    public Livro(){
+        tipoCapa = TipoCapaEnum.COMUM;
+    }
 
+    public Livro(Editora editora){
+        tipoCapa = TipoCapaEnum.COMUM;
+    }
+    //Método para exibir o livro
     public void exibirLivro()
     {
         System.out.println("Livro: "+ titulo);
