@@ -1,0 +1,13 @@
+
+z
+java:S1854"9Remove this useless assignment to local variable "idade".(ä´¸ÎýÿÿÿÿJ$39ee479d-6976-4a41-9a6e-955c9e331d1c
+g
+java:S1659"&Declare "telefone" on a separate line.(ƒ¢Ú°ûÿÿÿÿJ$53fc19aa-25b3-4e5c-baee-4e482010b9b1
+e	java:S106"+Replace this use of System.out by a logger.(ç÷ÞgJ$28aa1844-21ae-4af5-9768-ad2069507e72
+f	java:S106"+Replace this use of System.out by a logger.(ŒÐæëJ$5ee326e5-4ded-40f1-920b-5ed0162e6585
+n
+java:S1481"-Remove this unused "telefone" local variable.(ƒ¢Ú°ûÿÿÿÿJ$edde168d-c657-4282-901f-3479f9504e48
+f
+java:S1481"*Remove this unused "idade" local variable.(«åÙåJ$7bcba346-5ae2-479f-a389-8a64e98c80be
+k	java:S106"+Replace this use of System.out by a logger.(í´™†üÿÿÿÿJ$2e47ee74-4059-43d9-a149-098169e76d0e
+k	java:S106"+Replace this use of System.out by a logger.(ŸÛœ§øÿÿÿÿJ$11a4e248-83a3-4e1a-a3f6-2a7198658bc1
