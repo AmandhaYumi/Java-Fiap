@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Fiap.iml" filepath="$PROJECT_DIR$/.idea/Java-Fiap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-aula02/ddd-aula02.iml" filepath="$PROJECT_DIR$/ddd-aula02/ddd-aula02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-banco/ddd-banco.iml" filepath="$PROJECT_DIR$/ddd-banco/ddd-banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-calculoImc/ddd-calculoImc.iml" filepath="$PROJECT_DIR$/ddd-calculoImc/ddd-calculoImc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-cp1/ddd-cp1.iml" filepath="$PROJECT_DIR$/ddd-cp1/ddd-cp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-decisao/ddd-decisao.iml" filepath="$PROJECT_DIR$/ddd-decisao/ddd-decisao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-despesa/ddd-despesa.iml" filepath="$PROJECT_DIR$/ddd-despesa/ddd-despesa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-encapsulamento/ddd-encapsulamento.iml" filepath="$PROJECT_DIR$/ddd-encapsulamento/ddd-encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-funcionario/ddd-funcionario.iml" filepath="$PROJECT_DIR$/ddd-funcionario/ddd-funcionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-livraria/ddd-livraria.iml" filepath="$PROJECT_DIR$/ddd-livraria/ddd-livraria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-login/ddd-login.iml" filepath="$PROJECT_DIR$/ddd-login/ddd-login.iml" />
+    </modules>
+  </component>
+</project>
