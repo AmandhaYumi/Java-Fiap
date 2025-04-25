@@ -14,9 +14,17 @@ public class ContaComum {
     protected double saldo;
     protected Cliente cliente;
 
+    /*Método abrirConta: A função deste método é abrir uma nova conta, este método agirá
+    como um método construtor, recebendo como parâmetro somente a senha da conta, a
+    ser definida pelo cliente, o número da conta será gerado automaticamente e retornado
+    pelo método. A data de abertura é tomada do sistema considere o código: dtAbertura =
+    LocalDate.now(), a data de encerramento deverá ser deixada em branco e a situação
+    definida como ATIVA e o saldo inicial receberá 100.
 
-    public Long abrirConta(int senha) {
-        this.senha = senha;
+    + abrirConta(senha: int): Long
+    * */
+
+    public Long abrirConta(int senha){
         Random random = new Random();
         this.nroConta = random.nextLong(1000);
         this.senha = senha;
@@ -26,38 +34,35 @@ public class ContaComum {
         return nroConta;
     }
 
-    public boolean validarSenha(int senha) {
-        if (this.senha == senha)
+    public boolean validarSenha(int senha){
+        if(this.senha == senha)
             return true;
         else
             return false;
     }
-
-    public String sacarValor(double valor) {
-        if (valor <= saldo) {
-            saldo -= valor;
-
+    public String sacarValor(double valor){
+        if(this.saldo >= valor){
+            this.saldo -= valor;
             return "Saque efetuado com sucesso";
         }
-        return "Saque não efetuado, saldo insuficiente";
-
-    }
-
-    public void depositarValor(double valor, long nroConta) {
-        if (this.nroConta == nroConta) {
-            saldo += valor;
+        else {
+            return "Saque não efetuado, saldo insuficiente";
         }
     }
-
-    public String encerrarConta(long nroConta) {
-        if (this.nroConta == nroConta) {
-            this.situacao = SituacaoEnum.INATIVA;
+    public void depositarValor(double valor, Long nroConta){
+        if(nroConta == this.nroConta){
+            this.saldo += valor;
+        }
+    }
+    public String encerrarConta(Long nroConta){
+        if(nroConta == this.nroConta){
             this.saldo = 0;
-
+            this.situacao = SituacaoEnum.INATIVA;
             return "Conta encerrada";
         }
-        return "Conta inválida";
+        else
+            return "Conta inválida";
     }
+
+
 }
-
-
