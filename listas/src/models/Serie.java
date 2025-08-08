@@ -11,8 +11,26 @@ public class Serie extends Titulo{
 
     private List<Temporada> temporadas;
 
-    public Serie(int numeroTemporada, boolean ativa, int episodiosPorTemporada, int minutosPorEpisodio,
-                 List<Temporada> temporadas) {
+    public List<Temporada> getTemporadas() {
+        return temporadas;
+    }
+
+    public void setTemporadas(List<Temporada> temporadas) {
+        this.temporadas = temporadas;
+    }
+
+
+    public Serie(String nome, int anoDeLancamento, int duracaoEmMinutos, int numeroTemporada, boolean ativa, int episodiosPorTemporada, int minutosPorEpisodio, List<Temporada> temporadas) {
+        super(nome, anoDeLancamento, duracaoEmMinutos);
+        this.numeroTemporada = numeroTemporada;
+        this.ativa = ativa;
+        this.episodiosPorTemporada = episodiosPorTemporada;
+        this.minutosPorEpisodio = minutosPorEpisodio;
+        this.temporadas = temporadas;
+    }
+
+    public Serie(String nome, int anoDeLancamento, int duracaoEmMinutos, double somaAvaliacao, int totalAvaliacoes, ClassificacaoEnum classificacaoIndicativa, int numeroTemporada, boolean ativa, int episodiosPorTemporada, int minutosPorEpisodio, List<Temporada> temporadas) {
+        super(nome, anoDeLancamento, duracaoEmMinutos, somaAvaliacao, totalAvaliacoes, classificacaoIndicativa);
         this.numeroTemporada = numeroTemporada;
         this.ativa = ativa;
         this.episodiosPorTemporada = episodiosPorTemporada;
@@ -26,7 +44,6 @@ public class Serie extends Titulo{
     public Serie(String lucifer, int i, boolean b, double v, int i1, int i2, boolean b1, int i3, int i4, List<Temporada> temporadas, int i5) {
         super();
     }
-
     @Override
     public String toString() {
         return "Serie{" +
