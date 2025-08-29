@@ -1,0 +1,6 @@
+
+	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8®ÂŒ‰3J$0d26af9e-eb36-441a-868f-2b71d19a94bd
+—
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8½ÂŒ‰3J$a9c47497-1ee1-4da4-afff-812e9d63761a
+…
+java:S1128"=Remove this unused import 'oracle.jdbc.proxy.annotation.Pre'.(é÷¥Ûüÿÿÿÿ8ÆÂŒ‰3J$39fc38ef-ea17-4bd5-8184-cee016651164
