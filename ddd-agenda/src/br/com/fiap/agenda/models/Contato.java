@@ -2,6 +2,9 @@ package br.com.fiap.agenda.models;
 
 import enums.TipoContatoEnum;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Contato {
 
     private int id;
@@ -10,6 +13,19 @@ public class Contato {
     private String email;
     private String instagram;
     private TipoContatoEnum tipo;
+    private Endereco endereco;
+    //Representa a relação N:N
+    private List<Endereco> enderecosEntrega = new ArrayList<>();
+
+    public List<Endereco> getEnderecosEntrega() {
+        return enderecosEntrega;
+    }
+
+    public void setEnderecosEntrega(List<Endereco> enderecosEntrega) {
+        this.enderecosEntrega = enderecosEntrega;
+    }
+
+
     @Override
     public String toString() {
         return "\nContato: " + id +
@@ -18,8 +34,18 @@ public class Contato {
                 "\nEmail: " + email +
                 "\nInstagram: " + instagram  +
                 "\nTipo do Contato: " + tipo +
+                "\nEndereço: " + endereco +
                 "\n===================================";
     }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
     public int getId() {
         return id;
     }
