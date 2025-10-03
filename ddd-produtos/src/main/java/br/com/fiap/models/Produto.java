@@ -9,6 +9,9 @@ public class Produto {
     private double preco;
     private int quantidade;
 
+    //Gerar getters e setters
+
+
     public int getCodigo() {
         return codigo;
     }
