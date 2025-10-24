@@ -1,0 +1,21 @@
+
+†	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$31ba2884-a1a7-4d99-8c20-5d29e05aa2db
+‡	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$33c1ef03-ae37-4590-b99b-c0bc3b6980eb
+‡	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$1cdba30c-da88-462c-8686-a73827308826
+‡	java:S112İ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$eff7c885-220b-4f76-a7b9-89ff41c2430c
+”
+java:S11923"YDefine a constant instead of duplicating this literal "SELECT * from TBL_FILME " 3 times.(½¿ş?J$eac1d627-37e9-42ec-85a6-2b7e22c915e4
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8ŸÂ—½ 3
+q
+java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8 Â—½ 3
+q
+java:S2095r"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8 Â—½ 3
+p
+java:S2695_"/This "PreparedStatement" only has 8 parameters.(¨ÇìÕüÿÿÿÿJ$8b970e63-1832-454d-96d9-09c0759bc7de
+p
+java:S2695`"/This "PreparedStatement" only has 8 parameters.(ÁÂøÎûÿÿÿÿJ$ee52d791-fefe-4fe4-8461-e1e22a2cea15
+p
+java:S2695a"/This "PreparedStatement" only has 8 parameters.( ´‰şøÿÿÿÿJ$c7c08005-0859-4165-98f0-878608d9fb67
+a
+java:S6905„"Don't use the query "SELECT *".(¹ª±şúÿÿÿÿJ$6f32b074-b320-4b8e-8e9b-1fd46af2457e

@@ -1,0 +1,17 @@
+
+	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ€ŸŠ¡3J$458d26cb-3300-40b1-b35f-40e45ec6985f
+	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤äŸŠ¡3J$d1ee998e-d575-4b02-9b4f-f294b22a4a2f
+—
+java:S2095f"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8 ŞÜ 3J$9dd5c234-f045-4460-8e33-ab7d3b8c179e
+—
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8ìİÙ‰¡3J$83614996-d815-4fef-a67f-0850228abdd5
+—
+java:S2095R"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8ëİÙ‰¡3J$468f6b36-6d61-49b7-8182-da3acc6f1cdc
+g
+java:S69053"Don't use the query "SELECT *".(Ë·–ıÿÿÿÿ8ªŞÜ 3J$0f746e0d-1d0f-4f6d-afb3-bbb401777b35
+b
+java:S6905u"Don't use the query "SELECT *".(åæÌØ8µŞÜ 3J$4f46f3d2-6ef0-47d8-8fd5-87759d52a4c1
+x
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8‡ŞÙ‰¡3J$5dd8a7f7-f7f3-4937-a48d-99f5a099de6e
+x
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8‡ŞÙ‰¡3J$b6abaf49-fc10-417a-b23f-582f5449d398

@@ -1,0 +1,24 @@
+
+	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8«ö—¡3J$e6fa8152-7ed8-44c5-9d5a-7b29b161d709
+	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8«ö—¡3J$8c95acbd-e4d6-49d0-8677-7fefa7810d33
+	java:S112’"FDefine and throw a dedicated exception instead of using a generic one.(š’Ëùÿÿÿÿ8É³‚˜¡3J$bfde9467-a9d6-41a1-8215-46dcd0c65aed
+
+java:S1192S"KDefine a constant instead of duplicating this literal "DT_CRIACAO" 3 times.(ì£œ8Ê³‚˜¡3J$b8e4d78d-d2a1-4456-9f69-b44fb18b7fcd
+
+java:S1192T"JDefine a constant instead of duplicating this literal "TP_STATUS" 3 times.(Âï¦Å8Ë³‚˜¡3J$2343091f-467e-4e24-b687-63a42196a090
+’
+java:S1192"JDefine a constant instead of duplicating this literal "ID_PEDIDO" 4 times.(Ù¶Êíşÿÿÿÿ8­ö—¡3J$bc257861-8db8-46f6-aa9b-cef8c45840fa
+
+java:S6909="<Move this loop-invariant setter invocation out of this loop.(ë‹öÌ8Ì“¿—¡3J$f17cc529-1fb7-4138-a8dc-d664a85662fa
+}
+java:S1117K";Rename "conexao" which hides the field declared at line 14.(…ÍÛ8¿ö—¡3J$fe73cb76-b66d-4b67-aec7-71f69f0959a5
+g
+java:S6905L"Don't use the query "SELECT *".(‡¥Áİşÿÿÿÿ8Áö—¡3J$dfbce05a-b27e-4bd1-9ea7-db339ebb9eef
+}
+java:S1117`";Rename "conexao" which hides the field declared at line 14.(…ÍÛ8Åö—¡3J$c358f721-9408-48e1-9a9f-7c03cca713d6
+g
+java:S6905a"Don't use the query "SELECT *".(æß•ëûÿÿÿÿ8Åö—¡3J$d109e0d5-98ce-4abb-bfd8-245ab77efb52
+}
+java:S1117{";Rename "conexao" which hides the field declared at line 14.(…ÍÛ8î³‚˜¡3J$e3cff6f9-0942-4804-b096-1a81ddd30202
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8·‘Ï¯¡3J$e4e7bf74-ae9f-491e-930d-b1654d5621d6
