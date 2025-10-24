@@ -29,3 +29,5 @@ d
 4src/main/java/br/com/fiap/security/PasswordHash.java,a\8\a8429f49f4bc2d1d13ea353bd7ac4bca9d79e638
 c
 3src/main/java/br/com/fiap/security/TesteBCrypt.java,1\2\125e48eb991cf9d9f91793dad022b69cd8ddd3f0
+b
+2src/main/java/br/com/fiap/dto/UsuarioLoginDto.java,1\4\1449208b67b097b70e1ce1ae722964d67a9b7e7b

@@ -2,6 +2,12 @@ package br.com.fiap.models;
 
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+/**
+ * Essa classe foi criada para definição dos Usuários do sistema
+ * e teste da criação do Javadoc
+ * @author Eliane Marion
+ * @version 1.0.0
+ */
 @XmlRootElement
 public class Usuario {
     private int id;
@@ -42,6 +48,7 @@ public class Usuario {
     }
 
     public Usuario(){}
+   //Construtor
 
     public Usuario(String nome, String login, String senha) {
         this.nome = nome;
@@ -49,10 +56,14 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public Usuario(String nome, String login) {
-        this.nome = nome;
+    /*
+    Comentário: construtor que recebe login e senha
+    */
+    public Usuario(String login, String senha) {
         this.login = login;
+        this.senha = senha;
     }
+
 
     public Usuario(int id, String nome, String login, String senha) {
         this.id = id;
